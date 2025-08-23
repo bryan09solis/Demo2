@@ -4,35 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo 2</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+
+        }
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: azure;
+        }
+        a{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(83, 65, 217);
+        }
+        p{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aqua;
+        }
+
+    </style>
 </head>
 <body>
-    <table border="1" width = "100%" style="background-color:rgb(28, 163, 39) ;">
+    <table width = "100%" style="background-color:rgb(123, 179, 128, 0.857) ;">
         <!-- table>tr*3>tb*1! esto para hacer mas rapido las tablas y celdas-->
         <tr style="color: rgb(12, 19, 118);"> <!--Encabezado-->
             <td>
-                <table border="1" width="100%" style="background-color: rgb(19, 149, 186);">
+                <table  width="100%" style="background-color: rgb(19, 149, 186);">
                     <tr>
-                        <td><a href="index.html">Incio</a></td>
-                        <td><a href="definicion.html">Definicion</a></td>
-                        <td><a href="caracteristicas.html">Caracteristicas</a></td>
-                        <td><a href="contactame.html">Contactame</a></td>
+                        <td style="width: 25%;"><a href="index.html">Incio</a></td>
+                        <td style="width: 25%;"><a href="definicion.html">Definicion</a></td>
+                        <td style="width: 25%;"><a href="caracteristicas.html">Caracteristicas</a></td>
+                        <td style="width: 25%;"><a href="contactame.html">Contactame</a></td>
                     </tr>
                 </table>
             </td>
         </tr><!--caracteristicas-->
         <tr>
             <td>
-                <h2>Caracteristicas</h2>
+                <h2><b>Caracteristicas</b></h2>
                 <p> 
                     <ul>
-                        <dt>Alto Rendimiento: </dt>
+                        <dt><b>Alto Rendimiento:</b> </dt>
                         <li>Diseñados para ofrecer baja latencia y alta velocidad, ideal para aplicaciones de gran ancho de banda como video y voz. </li>
-                        <br><br><br>
-                        <dt>Seguridad Avanzada: </dt>
-                        <li>Implementan funciones como Listas de Control de Acceso (ACLs), seguridad de puertos para controlar el acceso a la red, y autenticación RADIUS/TACACS+ para proteger contra accesos no autorizados y ataques. </li>
-
+                        <br>
+                        <dt><b>Seguridad Avanzada:</b> </dt>
+                        <li>Implementan funciones como Listas de Control de Acceso (ACLs), seguridad de puertos para controlar el acceso a la red, y autenticación RADIUS/TACACS+ para proteger contra accesos no 25%rizados y ataques. </li>
+                        
                     </ul>
                 </p>
+                <div style="text-align: center;">
+                    <iframe width="941" height="539" src="https://www.youtube.com/embed/7paia7GYC40" title="Cisco Tech Talk: Layer 2 vs. Layer 3 Switches for Beginners | Understanding Networking Layers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </td>
         </tr>
         <tr style="background-color: rgb(163, 91, 28);"><!--pie de pagina-->
